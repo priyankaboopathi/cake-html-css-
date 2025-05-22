@@ -1,0 +1,77 @@
+*{
+    background-image: url('https://img.freepik.com/free-photo/top-view-glazed-doughnuts-with-assortment-candy-marshmallow_23-2148423364.jpg?semt=ais_hybrid&w=740');
+padding: auto;
+margin: auto;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+ nav{
+    padding: 5px;
+    border-top: 10px;
+ }
+ nav ul{
+    padding: 0px;
+    border: 2px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+ }
+nav ul li{
+    display:inline-block;
+    font-size: larger;
+    border: 20px;
+}
+nav ul li a{
+    color:purple;
+    text-decoration: none;
+    padding: 5px;
+    border: 10px;
+}
+nav ul li a:hover{
+    color: blue ;
+    margin: 2px;
+    padding: 2px;
+    border: 2px;
+
+}
+
+header,p{
+    background-color: blueviolet;
+    margin-top: 10px;
+    padding: 10px;
+    border: 10px;
+    background-color: yellow;
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+}
+
+    footer{
+        margin: 20px;
+        padding: 20px;
+        border: 20px;
+        background-color: blueviolet;
+        justify-content: center;
+    }
+    h4{
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+        border: 20px;
+        text-align: center;
+    }
+
+img{
+    justify-items:center;
+    height: 25vh;
+    width: 25vh;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+    padding: 20px;
+}
